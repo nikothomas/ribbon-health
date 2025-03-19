@@ -1,13 +1,14 @@
 use std::sync::Arc;
-use dotenv::dotenv;
+use dotenvy::dotenv;
 use std::env;
 
 use ribbon_health::apis::{configuration::Configuration, providers_api::{ProvidersApi, ProvidersApiClient, GetCustomProvidersParams}};
 
 #[tokio::test]
 async fn test_search_providers_san_diego() {
-    // Load environment variables from .env file
-    dotenv().ok();
+    // Load environment variables from .env file if available
+    // Will continue if .env is not found, allowing use of system environment variables
+    let _ = dotenv();
     
     // Get the bearer token from environment variable
     let bearer_token = env::var("RIBBON_API_TOKEN").expect("RIBBON_API_TOKEN must be set");

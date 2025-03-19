@@ -40,7 +40,7 @@ ribbon-health = { version = "2.0.0", features = ["bon"] }
 
 ### From GitHub repository
 
-You can also add the dependency directly from the GitHub repository:
+You can also add the dependency directly from this GitHub repository:
 
 ```toml
 [dependencies]

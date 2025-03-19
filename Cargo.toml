@@ -27,7 +27,7 @@ bon = { version = "3.5", optional = true }
 
 [dev-dependencies]
 tokio = { version = "1", features = ["full"] }
-dotenv = "0.15"
+dotenvy = "0.15.7"
 
 [features]
 bon = ["dep:bon"]
