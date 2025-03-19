@@ -1,12 +1,10 @@
 
 [package]
 name = "ribbon-health"
-version = "2.0.0"
+version = "2.0.1"
 authors = ["OpenAPI Generator team and contributors", "Nikolas Yanek-Chrones"]
 description = "Unofficial Rust client for the Ribbon Health API - access healthcare provider data, locations, insurance information, and more"
-documentation = "https://docs.rs/ribbon-health"
-repository = "https://github.com/nikothomas/ribbon-health-rs"
-homepage = "https://ribbon.readme.io/"
+repository = "https://github.com/nikothomas/ribbon-health"
 readme = "README.md"
 license = "MIT OR Apache-2.0"
 keywords = ["healthcare", "api-client", "ribbon-health", "medical", "openapi"]
