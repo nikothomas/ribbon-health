@@ -1,7 +1,7 @@
 
 [package]
 name = "ribbon-health"
-version = "2.0.0"
+version = "2.0.1"
 authors = ["OpenAPI Generator team and contributors", "Nikolas Yanek-Chrones"]
 description = "Unofficial Rust client for the Ribbon Health API - access healthcare provider data, locations, insurance information, and more"
 documentation = "https://docs.rs/ribbon-health"
