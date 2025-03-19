@@ -8,7 +8,7 @@ on:
 
 env:
   CARGO_TERM_COLOR: always
-  RIBBON_API_KEY: ${{ secrets.RIBBON_API_TOKEN }}
+  RIBBON_API_TOKEN: ${{ secrets.RIBBON_API_TOKEN }}
 
 jobs:
   test:
