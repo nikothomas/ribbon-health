@@ -1,4 +1,4 @@
-# Rust API client for ribbon-health
+# Rust API client for Ribbon Health
 
 An API client for interacting with the data provided by Ribbon Health, including information about healthcare providers, locations, insurances, and more.
 
