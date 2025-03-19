@@ -34,4 +34,4 @@ jobs:
         if: steps.publish.outputs.published != '[]'
         run: |
           echo "Published crates:"
-          echo "${{ join(fromJSON(steps.publish.outputs.published).*.name, ', ') }} v${{ join(fromJSON(steps.publish.outputs.published).*.version, ', ') }}" 
+          echo "${{ steps.publish.outputs.published }}"
