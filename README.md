@@ -3,9 +3,9 @@
 An API client for interacting with the data provided by Ribbon Health, including information about healthcare providers, locations, insurances, and more.
 
 [![Crates.io Version](https://img.shields.io/crates/v/ribbon-health.svg)](https://crates.io/crates/ribbon-health)
-[![Tests Status](https://github.com/nikothomas/ribbon-health-rs/actions/workflows/test.yml/badge.svg)](https://github.com/nikothomas/ribbon-health-rs/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/nikothomas/ribbon-health-rs/branch/main/graph/badge.svg)](https://codecov.io/gh/nikothomas/ribbon-health-rs)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnikothomas%2Fribbon-health-rs.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnikothomas%2Fribbon-health-rs?ref=badge_shield)
+[![Tests Status](https://github.com/nikothomas/ribbon-health/actions/workflows/test.yml/badge.svg)](https://github.com/nikothomas/ribbon-health/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/nikothomas/ribbon-health/branch/main/graph/badge.svg)](https://codecov.io/gh/nikothomas/ribbon-health)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnikothomas%2Fribbon-health.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnikothomas%2Fribbon-health?ref=badge_shield)
 [![Documentation](https://docs.rs/ribbon-health/badge.svg)](https://docs.rs/ribbon-health)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE-MIT)
 
