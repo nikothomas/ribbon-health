@@ -259,13 +259,5 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 ```
 
-To get access to the crate's generated documentation, use:
-
-```
-cargo doc --open
-```
-
-## Author
-
 
 
