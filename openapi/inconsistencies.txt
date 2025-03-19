@@ -1,0 +1,10 @@
+codes field in insurance objects:
+Model expected: Array of arrays [[String]]
+API returns: Array of strings [String]
+confidence fields:
+Model expected: Integer i32 values
+API returns: Floating-point f64 values
+Affected fields: Insurance confidence, Location confidence, Faxes confidence
+tins field in locations:
+Model expected: String
+API returns: Array of strings [String]

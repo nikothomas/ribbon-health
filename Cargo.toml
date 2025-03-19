@@ -1,0 +1,33 @@
+
+[package]
+name = "ribbon-health"
+version = "1.0.0"
+authors = ["OpenAPI Generator team and contributors", "Nikolas Yanek-Chrones"]
+description = "Unofficial Rust client for the Ribbon Health API - access healthcare provider data, locations, insurance information, and more"
+documentation = "https://docs.rs/ribbon-health"
+repository = "https://github.com/nikothomas/ribbon-health-rs"
+homepage = "https://ribbon.readme.io/"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["healthcare", "api-client", "ribbon-health", "medical", "openapi"]
+categories = ["api-bindings", "web-programming::http-client"]
+edition = "2024"
+
+[dependencies]
+serde = { version = "^1.0", features = ["derive"] }
+serde_with = { version = "^3.8", default-features = false, features = ["base64", "std", "macros"] }
+serde_json = "^1.0"
+serde_repr = "^0.1"
+url = "^2.5"
+uuid = { version = "^1.8", features = ["serde", "v4"] }
+async-trait = "^0.1"
+reqwest = { version = "^0.12", features = ["json", "multipart"] }
+reqwest-middleware = { version = "^0.4", features = ["json", "multipart"] }
+bon = { version = "3.5", optional = true }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+dotenv = "0.15"
+
+[features]
+bon = ["dep:bon"]
